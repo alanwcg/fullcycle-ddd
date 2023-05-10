@@ -1,7 +1,7 @@
-import { Address } from './domain/entities/address'
-import { Customer } from './domain/entities/customer'
-import { Order } from './domain/entities/order'
-import { OrderItem } from './domain/entities/order-item'
+import { Address } from './domain/customer/value-objects/address'
+import { Customer } from './domain/customer/entities/customer'
+import { OrderItem } from './domain/checkout/entities/order-item'
+import { Order } from './domain/checkout/entities/order'
 
 let customer = new Customer('1', 'Alan Cintra')
 const address = new Address('Rua Mariza Neves', 230, '55190-194', 'SCC')
